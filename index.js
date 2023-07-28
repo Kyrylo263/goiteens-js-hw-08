@@ -12,9 +12,9 @@ for (let i = 1; i < number; i += 1) {
     console.log(i);
 };
 
-const secondNumber = 70;
-for (let ii = 7; ii < secondNumber; ii += 7) {
-    console.log(ii);
+const secondNumber = 7;
+for (let ii = 1; ii <= 10; ii += 1) {
+    console.log(ii*secondNumber);
 };
 
 const array = [1, 2, 3, 4, 5];
@@ -25,10 +25,8 @@ while (index < array.length) {
 };
 
 const secondArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let secondIndex = 0
-while (secondIndex < secondArray.length) {
-    secondIndex += 1;
-    if (secondIndex === 7) {
+for (let secondIndex = 0; secondIndex < secondArray.length; secondIndex += 1) {
+    if (secondIndex === 8) {
         break;
     }
     console.log(secondIndex);
